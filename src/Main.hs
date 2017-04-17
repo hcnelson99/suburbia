@@ -94,7 +94,7 @@ allTiles = [Tile { _name = "Suburbs",
                 _color = Grey,
                 _category = Nothing,
                 _price = 4,
-                _effect = \m _ -> increase income (-1) m} -- Doesn't have rep bonus
+                _effect = \m _ -> communityParkEffect}
         ]
 
 main :: IO ()
